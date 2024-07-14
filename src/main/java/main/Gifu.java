@@ -48,7 +48,7 @@ public class Gifu {
 
     public void listCourses () {
         for (int j = 0; j < courses.size(); j++) {
-            System.out.println(j + ") " + courses.get(j).getId() + " " + courses.get(j).getInformation());
+            System.out.println(j + ") "  + courses.get(j).getInformation());
         }
     }
 

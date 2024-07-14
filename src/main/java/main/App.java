@@ -121,14 +121,13 @@ public class App
                         for (int j = 0; j < ennroList8.size(); j++) {
                             Enrollment e = ennroList8.get(j);
                             Course ennCourse = e.getCourse();
-                            System.out.println(ennCourse.getInformation()+ " , arvosana: " + e.getGrade());
+                            System.out.println(ennCourse.getInformation()+ ", arvosana: " + e.getGrade());
                         }
 
                         break;
                     case 9:
                         // Listaa kaikkien kurssien kaikkien opiskelijoiden arvosanat
                         List<Course> cAll = gifu.getCourses();
-                        System.out.println(cAll.size());
 
                         for (int j = 0; j < cAll.size(); j++) {
                             Course c9 = cAll.get(j);
